@@ -40,3 +40,9 @@ DATABASES
 # La carpeta "base"del proyecto es
 SAP
 
+
+
+# Crear archivo de dependecias (venv/lib/etc)
+pip freeze > requirements.txt
+# Usar el archivo creado anteriormente 
+pip install -r requirements.txt
