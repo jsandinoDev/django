@@ -1,6 +1,9 @@
 # Iniciar Ambiente virtual en VSCode
 
-py -3 -m venv .venv .venv\scripts\activate
+py -3 -m venv .venv 
+# Seleccionar el python interpreter (debe ser el VENV)
+control + shift + p
+
 
 # Instalar python
 python -m pip install django
