@@ -1,4 +1,4 @@
-# DJAANGO
+# DJANGO WIKI
 
 
 ##  Instalar python
@@ -46,7 +46,7 @@ pyhton manage.py startapp personas
 python manage.py runserver
 ```
 
-##   Migraciones
+##  Migraciones
 ```
 python manage.py showmigrations
 python manage.py migrate
@@ -79,7 +79,7 @@ DATABASES
 SAP
 ```
 
-##  crear super usuario
+##  Crear super usuario
 ```
 pyhton manage.py createsuperuser
 admin
