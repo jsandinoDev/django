@@ -1,5 +1,12 @@
 # DJANGO WIKI
 
+## Pasos
+```
+1- Crear folder
+2- Crear ambiente virtual
+3- Verificar si django esta instalado
+4- Comando para crear proyecto django 
+```
 
 ##  Instalar python
 ```
