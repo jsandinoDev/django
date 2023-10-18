@@ -2,7 +2,9 @@
 
 
 ##  Instalar python
+```
 python -m pip install django
+```
 
 ##  Version
 django-admin version    
