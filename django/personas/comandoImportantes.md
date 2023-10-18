@@ -1,26 +1,29 @@
-# Iniciar Ambiente virtual en VSCode
-
-py -3 -m venv .venv 
-# Seleccionar el python interpreter (debe ser el VENV)
-control + shift + p
-
-
-# Instalar python
+# --------------------------------------- Instalar python
 python -m pip install django
 
 # Version
 django-admin version    
 
-# Crear projecto
+# Crear archivo de dependecias (venv/lib/etc)
+pip freeze > requirements.txt
+# Usar el archivo creado anteriormente 
+pip install -r requirements.txt
+
+# --------------------------------------- Iniciar Ambiente virtual en VSCode
+py -3 -m venv .venv 
+# Seleccionar el python interpreter (debe ser el VENV)
+control + shift + p
+
+# --------------------------------------- Crear projecto
 django-admin startproject sap  
 
-# Crear app
+# --------------------------------------- Crear app
 pyhton manage.py startapp personas
 
-# Run Server
+# --------------------------------------- Run Server
 python manage.py runserver
 
-# Migraciones
+# ---------------------------------------  Migraciones
 python manage.py showmigrations
 python manage.py migrate
 ## Despues de crear un modelo
@@ -31,18 +34,20 @@ python manage.py sqlmigrate personas 0001
 python manage.py migrate
 
 
-# Instalar postgress
+# --------------------------------------- Instalar postgress
 python -m pip install psycopg2  
 
-# configurar el archivo setting.py
+# --------------------------------------- configurar el archivo setting.py
 DATABASES
 
-# La carpeta "base"del proyecto es
+# --------------------------------------- La carpeta "base"del proyecto es
 SAP
 
+# --------------------------------------- crear super usuario
+pyhton manage.py createsuperuser
+admin 
+123
 
-
-# Crear archivo de dependecias (venv/lib/etc)
-pip freeze > requirements.txt
-# Usar el archivo creado anteriormente 
-pip install -r requirements.txt
+# Usar la consola de admin de django
+en la clase del modelo agregar en admin
+$ admin.site.register(Persona)
