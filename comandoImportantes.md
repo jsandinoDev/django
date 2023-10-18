@@ -10,37 +10,37 @@ python -m pip install django
 ```
 django-admin version    
 ```
-
-##  Crear archivo de dependecias (venv/lib/etc)
+# Pip File
+###  Crear archivo de dependecias (venv/lib/etc)
 ```
 pip freeze > requirements.txt
 ```
 
-##  Usar el archivo creado anteriormente 
+###  Usar el archivo creado anteriormente 
 ```
 pip install -r requirements.txt
 ```
 
-##  Iniciar Ambiente virtual en VSCode
+# Ambiente Virtual
+###  Iniciar Ambiente virtual en VSCode
 ```
 py -3 -m venv .venv 
 ```
 
-##  Seleccionar el python interpreter (debe ser el VENV)
+###  Seleccionar el python interpreter (debe ser el VENV)
 ```
 control + shift + p
 ```
-
-##  Crear projecto
+## Comandos creacion projectos
+### Crear projecto
 ```
 django-admin startproject sap  
 ```
 
-##  Crear app
+###  Crear app
 ```
 pyhton manage.py startapp personas
 ```
-
 ##  Run Server
 ```
 python manage.py runserver
