@@ -29,6 +29,7 @@ py -3 -m venv .venv
 
 ###  Seleccionar el python interpreter (debe ser el VENV)
 ```
+.venv\Scripts\activate
 control + shift + p
 ```
 ## Comandos creacion projectos
