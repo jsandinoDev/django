@@ -4,12 +4,12 @@
 ## --------------------------------------- Instalar python
 python -m pip install django
 
-## Version
+## --------------------------------------- Version
 django-admin version    
 
-## Crear archivo de dependecias (venv/lib/etc)
+## --------------------------------------- Crear archivo de dependecias (venv/lib/etc)
 pip freeze > requirements.txt
-## Usar el archivo creado anteriormente 
+## --------------------------------------- Usar el archivo creado anteriormente 
 pip install -r requirements.txt
 
 ## --------------------------------------- Iniciar Ambiente virtual en VSCode
